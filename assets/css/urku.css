@@ -98,6 +98,12 @@ body {
   text-transform: uppercase;
   width: 20%;
 }
+.rk-sublogo {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  width: 60%;
+}
 .rk-logo sup {
   font-size: .5625rem;
   position: relative;
@@ -229,7 +235,7 @@ body {
 }
 
 .rk-footer {
-  margin-top: 10.5rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
