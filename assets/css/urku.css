@@ -489,6 +489,10 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.rk-item:active .item-meta {
+  opacity: 1;
+  visibility: visible;
+}
 .rk-item--flex {
   background-position: center center;
   background-repeat: no-repeat;
