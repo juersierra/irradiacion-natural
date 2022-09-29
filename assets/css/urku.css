@@ -481,11 +481,11 @@ body {
   display: block;
   width: 100%;
 }
-.rk-item:hover .item-meta {
+.rk-item:hover, .rk-item:active .item-meta {
   opacity: 1;
   visibility: visible;
 }
-.rk-item:active .item-meta {
+.rk-item:hover .item-meta, .rk-item:active {
   opacity: 1;
   visibility: visible;
 }
