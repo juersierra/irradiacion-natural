@@ -5,6 +5,7 @@ const hbs = require('hbs');
 const path = require('path');
 const nodemailer = require('nodemailer');
 
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname + "/assets")));
 app.use(express.urlencoded({extended: false}));
@@ -18,6 +19,9 @@ app.get('/', (req, res)=>{
 })
 app.get('/laobra', (req, res)=>{
     res.render('laobra', {titulo: 'LA OBRA'})
+})
+app.get('/bio', (req, res)=>{
+    res.render('bio', {titulo: 'BIO'})
 })
 app.get('/contacto', (req, res)=>{
     res.render('contacto', {titulo: 'CONTACTAME'})

@@ -77,20 +77,17 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 3.3rem;
+  padding-bottom: 0rem;
   padding-top: 2.8rem;
 }
-@media (min-width: 64em) {
-  .rk-topbar {
-    padding-bottom: 0;
-  }
-}
+
 
 .rk-logo {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
+  font-family: "Gerbil";
   font-size: 1.375rem;
   font-weight: 700;
   letter-spacing: 2.25px;
@@ -99,6 +96,7 @@ body {
   width: 20%;
 }
 .rk-sublogo {
+  font-family: "Cairo";
   font-size: 1rem;
   letter-spacing: 1.5px;
   font-weight: 400;
@@ -2039,7 +2037,7 @@ body {
     display: -ms-flexbox;
     display:         flex;
     position: fixed;
-    top: 0;
+    top: 20;
     left: 0;
     z-index: 200;
     -webkit-box-align: center;
